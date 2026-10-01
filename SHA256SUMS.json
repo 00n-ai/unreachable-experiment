@@ -1,0 +1,20 @@
+{
+  ".gitignore": "cd169af908f1ddaee012479698a9fc513fc09e2142e82f8dca620eb3f653308e",
+  ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "CITATION.cff": "83c33f7808ed9f3f9dab7968bf5c2420fc183900d0a6ea7e3eb849a18719bdc7",
+  "README.md": "5512bfb344d76479ad0732976c240c74a6ec13ac0a4a6bf9a3581c2ee0ef16c1",
+  "REFERENCES.md": "a97bda0f8060a35a58137dfb10a51e040f8de641e1815607ad24203de21841f0",
+  "data/deepinfra-outcomes.jsonl.gz": "363a1247f422c0fa938db99c24263293cdc51e9d2696dc6a1e332233db891010",
+  "data/explainer.json": "df4067301a9d0f74d25818d81694b4461b5b0d59c98957fbabf57091549676f8",
+  "data/luna-outcomes.jsonl.gz": "0b576b525d5dd96f2ca97f5a906e61217d5a82b93e55b59e51eab5d4adcc3aec",
+  "index.html": "4f4de3e2083d107cb84f03ca87d7f41db49693418d7cc37d91a836e2c50c3706",
+  "references.bib": "6b06aac56489ad07f0421b7b2620d9d35e7de92105f707b54554f729c6deee1c",
+  "reports/joint-analysis.json": "59f1f8323ce4bc2bbac41fcadcd6d10cbad358ed0aa1e0e83da1171e3da5bab3",
+  "reports/joint-analysis.md": "eb678c686c6ac6cf325caf95bae2ff11b741250a99043516b89840facec30d48",
+  "requirements.txt": "37899fcd7aac4c94dcd379fdb62508309b84b809348ea37cdb5ce00f5404457f",
+  "src/graph_reasoning/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "src/graph_reasoning/complexity.py": "69e0cffb15015168142ef972f341da948da1a89f8c07f7a331f20491544f1901",
+  "src/graph_reasoning/connectivity_dataset.py": "54c74d3bd720d79a639fda1ad02084da5276e71b11a402fa87ffb6268060ec35",
+  "src/graph_reasoning/prompts.py": "8754c8b1becab65681085006fe4d086c401cb2f29c550170612372e2c50ca8fa",
+  "verify.py": "b96efc02d3f69374d5c7e994d32deea8ae3807a7281d93e2d6b5dc0c00cff628"
+}

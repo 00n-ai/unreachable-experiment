@@ -1,0 +1,1174 @@
+{
+  "examples": [
+    {
+      "id": "connectivity-d4-b2-i30979-r-p-s62471930",
+      "reachable": true,
+      "gold": "True",
+      "graph": {
+        "id": "4:2",
+        "depth": 4,
+        "breadth": 2,
+        "entity": "e1d2686245371",
+        "target": "p330793475602",
+        "nodes": [
+          {
+            "id": "p1ac474ba3fe8",
+            "label": "A0",
+            "component": 0,
+            "depth": 0,
+            "spine": true
+          },
+          {
+            "id": "pbdc672dcbb2d",
+            "label": "A1.1",
+            "component": 0,
+            "depth": 1,
+            "spine": false,
+            "parent": "p1ac474ba3fe8"
+          },
+          {
+            "id": "p3991d93c29b0",
+            "label": "A1",
+            "component": 0,
+            "depth": 1,
+            "spine": true
+          },
+          {
+            "id": "p49e63050bac2",
+            "label": "A2.1",
+            "component": 0,
+            "depth": 2,
+            "spine": false,
+            "parent": "p3991d93c29b0"
+          },
+          {
+            "id": "pfac115465e74",
+            "label": "A2",
+            "component": 0,
+            "depth": 2,
+            "spine": true
+          },
+          {
+            "id": "pbf6fa5761f43",
+            "label": "A3.1",
+            "component": 0,
+            "depth": 3,
+            "spine": false,
+            "parent": "pfac115465e74"
+          },
+          {
+            "id": "pf757642036b3",
+            "label": "A3",
+            "component": 0,
+            "depth": 3,
+            "spine": true
+          },
+          {
+            "id": "pec6b4af2e531",
+            "label": "A4.1",
+            "component": 0,
+            "depth": 4,
+            "spine": false,
+            "parent": "pf757642036b3"
+          },
+          {
+            "id": "p330793475602",
+            "label": "A4",
+            "component": 0,
+            "depth": 4,
+            "spine": true
+          },
+          {
+            "id": "p3e1cca11f5dd",
+            "label": "B0",
+            "component": 1,
+            "depth": 0,
+            "spine": true
+          },
+          {
+            "id": "pf7ba8636808c",
+            "label": "B1.1",
+            "component": 1,
+            "depth": 1,
+            "spine": false,
+            "parent": "p3e1cca11f5dd"
+          },
+          {
+            "id": "pb76bcf983d35",
+            "label": "B1",
+            "component": 1,
+            "depth": 1,
+            "spine": true
+          },
+          {
+            "id": "p707acdec07d1",
+            "label": "B2.1",
+            "component": 1,
+            "depth": 2,
+            "spine": false,
+            "parent": "pb76bcf983d35"
+          },
+          {
+            "id": "pf4db71e66021",
+            "label": "B2",
+            "component": 1,
+            "depth": 2,
+            "spine": true
+          },
+          {
+            "id": "p5e0c9a3840ef",
+            "label": "B3.1",
+            "component": 1,
+            "depth": 3,
+            "spine": false,
+            "parent": "pf4db71e66021"
+          },
+          {
+            "id": "p9d26e930fabf",
+            "label": "B3",
+            "component": 1,
+            "depth": 3,
+            "spine": true
+          },
+          {
+            "id": "pa698c2925f12",
+            "label": "B4.1",
+            "component": 1,
+            "depth": 4,
+            "spine": false,
+            "parent": "p9d26e930fabf"
+          },
+          {
+            "id": "p714661a8ad21",
+            "label": "B4",
+            "component": 1,
+            "depth": 4,
+            "spine": true
+          }
+        ],
+        "edges": [
+          [
+            "p1ac474ba3fe8",
+            "p3991d93c29b0"
+          ],
+          [
+            "p1ac474ba3fe8",
+            "pbdc672dcbb2d"
+          ],
+          [
+            "p3991d93c29b0",
+            "pfac115465e74"
+          ],
+          [
+            "p3991d93c29b0",
+            "p49e63050bac2"
+          ],
+          [
+            "pfac115465e74",
+            "pf757642036b3"
+          ],
+          [
+            "pfac115465e74",
+            "pbf6fa5761f43"
+          ],
+          [
+            "pf757642036b3",
+            "p330793475602"
+          ],
+          [
+            "pf757642036b3",
+            "pec6b4af2e531"
+          ],
+          [
+            "p3e1cca11f5dd",
+            "pb76bcf983d35"
+          ],
+          [
+            "p3e1cca11f5dd",
+            "pf7ba8636808c"
+          ],
+          [
+            "pb76bcf983d35",
+            "pf4db71e66021"
+          ],
+          [
+            "pb76bcf983d35",
+            "p707acdec07d1"
+          ],
+          [
+            "pf4db71e66021",
+            "p9d26e930fabf"
+          ],
+          [
+            "pf4db71e66021",
+            "p5e0c9a3840ef"
+          ],
+          [
+            "p9d26e930fabf",
+            "p714661a8ad21"
+          ],
+          [
+            "p9d26e930fabf",
+            "pa698c2925f12"
+          ]
+        ],
+        "roots": [
+          "p1ac474ba3fe8",
+          "p3e1cca11f5dd"
+        ],
+        "nodeCount": 19,
+        "edgeCount": 17
+      },
+      "fact": {
+        "entity": "e1d2686245371",
+        "predicate": "p1ac474ba3fe8"
+      },
+      "query": {
+        "entity": "e1d2686245371",
+        "predicate": "p330793475602",
+        "negated": false,
+        "text": "e1d2686245371 is a p330793475602."
+      },
+      "messages": [
+        {
+          "content": "You solve synthetic deductive reasoning problems.\nTreat every predicate and entity name as an arbitrary symbol. Use only the\nfacts, implication rules, or graph supplied in this request. Do not use outside\nknowledge. Follow the requested plain-text response structure exactly. Do not\nuse JSON, Markdown, code fences, or text outside the structure.",
+          "role": "system"
+        },
+        {
+          "content": "Condition: Natural Language Branching World\n\nWorld:\nEvery p3e1cca11f5dd is a pf7ba8636808c. Every pb76bcf983d35 is a pf4db71e66021. Every p3991d93c29b0 is a pfac115465e74. Every pf757642036b3 is a pec6b4af2e531. Every p1ac474ba3fe8 is a pbdc672dcbb2d. Every p1ac474ba3fe8 is a p3991d93c29b0. Every p9d26e930fabf is a pa698c2925f12. Every p3991d93c29b0 is a p49e63050bac2. Every p9d26e930fabf is a p714661a8ad21. Every pfac115465e74 is a pbf6fa5761f43. Every pfac115465e74 is a pf757642036b3. Every pf757642036b3 is a p330793475602. e1d2686245371 is a p1ac474ba3fe8. Every pf4db71e66021 is a p5e0c9a3840ef. Every p3e1cca11f5dd is a pb76bcf983d35. Every pf4db71e66021 is a p9d26e930fabf. Every pb76bcf983d35 is a p707acdec07d1.\n\nQuestion:\nTrue or false: e1d2686245371 is a p330793475602.\n\nDetermine whether the query predicate is reachable from the entity through the stated implications. If it is reachable, return exactly one contiguous entity-level proof path and omit all distractor branches. If it is unreachable, return no STEP lines. Account for query negation when selecting the Boolean answer.\n\nReturn plain text in exactly this structure:\nSTEP 1: first derived proposition\nSTEP 2: second derived proposition\nANSWER: True\nEND\n\nInclude one STEP line per derived proposition, numbered consecutively from 1.\nAfter all STEP lines, write ANSWER followed by either True or False. If no\nderivation is needed, begin with the ANSWER line. Do not include commentary,\nconfidence, alternatives, or unstated facts.",
+          "role": "user"
+        }
+      ],
+      "path": [
+        [
+          "e1d2686245371",
+          "p1ac474ba3fe8"
+        ],
+        [
+          "p1ac474ba3fe8",
+          "p3991d93c29b0"
+        ],
+        [
+          "p3991d93c29b0",
+          "pfac115465e74"
+        ],
+        [
+          "pfac115465e74",
+          "pf757642036b3"
+        ],
+        [
+          "pf757642036b3",
+          "p330793475602"
+        ]
+      ],
+      "exploration": [
+        [
+          "e1d2686245371",
+          "p1ac474ba3fe8"
+        ],
+        [
+          "p1ac474ba3fe8",
+          "p3991d93c29b0"
+        ],
+        [
+          "p1ac474ba3fe8",
+          "pbdc672dcbb2d"
+        ],
+        [
+          "p3991d93c29b0",
+          "pfac115465e74"
+        ],
+        [
+          "p3991d93c29b0",
+          "p49e63050bac2"
+        ],
+        [
+          "pfac115465e74",
+          "pf757642036b3"
+        ],
+        [
+          "pfac115465e74",
+          "pbf6fa5761f43"
+        ],
+        [
+          "pf757642036b3",
+          "p330793475602"
+        ],
+        [
+          "pf757642036b3",
+          "pec6b4af2e531"
+        ]
+      ],
+      "observed": {
+        "model": "Luna",
+        "answer": "True",
+        "text": "STEP 1: e1d2686245371 is a p3991d93c29b0.\nSTEP 2: e1d2686245371 is a pfac115465e74.\nSTEP 3: e1d2686245371 is a pf757642036b3.\nSTEP 4: e1d2686245371 is a p330793475602.\nANSWER: True\nEND",
+        "classification": "correct"
+      },
+      "request_sha256": "137a2f00c2405e17eacdbd4c49a72303f75d35748ada0df8d0fb8fd58ee29c98"
+    },
+    {
+      "id": "connectivity-d4-b2-i30979-u-p-s62471930",
+      "reachable": false,
+      "gold": "False",
+      "graph": {
+        "id": "4:2",
+        "depth": 4,
+        "breadth": 2,
+        "entity": "e1d2686245371",
+        "target": "p330793475602",
+        "nodes": [
+          {
+            "id": "p1ac474ba3fe8",
+            "label": "A0",
+            "component": 0,
+            "depth": 0,
+            "spine": true
+          },
+          {
+            "id": "pbdc672dcbb2d",
+            "label": "A1.1",
+            "component": 0,
+            "depth": 1,
+            "spine": false,
+            "parent": "p1ac474ba3fe8"
+          },
+          {
+            "id": "p3991d93c29b0",
+            "label": "A1",
+            "component": 0,
+            "depth": 1,
+            "spine": true
+          },
+          {
+            "id": "p49e63050bac2",
+            "label": "A2.1",
+            "component": 0,
+            "depth": 2,
+            "spine": false,
+            "parent": "p3991d93c29b0"
+          },
+          {
+            "id": "pfac115465e74",
+            "label": "A2",
+            "component": 0,
+            "depth": 2,
+            "spine": true
+          },
+          {
+            "id": "pbf6fa5761f43",
+            "label": "A3.1",
+            "component": 0,
+            "depth": 3,
+            "spine": false,
+            "parent": "pfac115465e74"
+          },
+          {
+            "id": "pf757642036b3",
+            "label": "A3",
+            "component": 0,
+            "depth": 3,
+            "spine": true
+          },
+          {
+            "id": "pec6b4af2e531",
+            "label": "A4.1",
+            "component": 0,
+            "depth": 4,
+            "spine": false,
+            "parent": "pf757642036b3"
+          },
+          {
+            "id": "p330793475602",
+            "label": "A4",
+            "component": 0,
+            "depth": 4,
+            "spine": true
+          },
+          {
+            "id": "p3e1cca11f5dd",
+            "label": "B0",
+            "component": 1,
+            "depth": 0,
+            "spine": true
+          },
+          {
+            "id": "pf7ba8636808c",
+            "label": "B1.1",
+            "component": 1,
+            "depth": 1,
+            "spine": false,
+            "parent": "p3e1cca11f5dd"
+          },
+          {
+            "id": "pb76bcf983d35",
+            "label": "B1",
+            "component": 1,
+            "depth": 1,
+            "spine": true
+          },
+          {
+            "id": "p707acdec07d1",
+            "label": "B2.1",
+            "component": 1,
+            "depth": 2,
+            "spine": false,
+            "parent": "pb76bcf983d35"
+          },
+          {
+            "id": "pf4db71e66021",
+            "label": "B2",
+            "component": 1,
+            "depth": 2,
+            "spine": true
+          },
+          {
+            "id": "p5e0c9a3840ef",
+            "label": "B3.1",
+            "component": 1,
+            "depth": 3,
+            "spine": false,
+            "parent": "pf4db71e66021"
+          },
+          {
+            "id": "p9d26e930fabf",
+            "label": "B3",
+            "component": 1,
+            "depth": 3,
+            "spine": true
+          },
+          {
+            "id": "pa698c2925f12",
+            "label": "B4.1",
+            "component": 1,
+            "depth": 4,
+            "spine": false,
+            "parent": "p9d26e930fabf"
+          },
+          {
+            "id": "p714661a8ad21",
+            "label": "B4",
+            "component": 1,
+            "depth": 4,
+            "spine": true
+          }
+        ],
+        "edges": [
+          [
+            "p1ac474ba3fe8",
+            "p3991d93c29b0"
+          ],
+          [
+            "p1ac474ba3fe8",
+            "pbdc672dcbb2d"
+          ],
+          [
+            "p3991d93c29b0",
+            "pfac115465e74"
+          ],
+          [
+            "p3991d93c29b0",
+            "p49e63050bac2"
+          ],
+          [
+            "pfac115465e74",
+            "pf757642036b3"
+          ],
+          [
+            "pfac115465e74",
+            "pbf6fa5761f43"
+          ],
+          [
+            "pf757642036b3",
+            "p330793475602"
+          ],
+          [
+            "pf757642036b3",
+            "pec6b4af2e531"
+          ],
+          [
+            "p3e1cca11f5dd",
+            "pb76bcf983d35"
+          ],
+          [
+            "p3e1cca11f5dd",
+            "pf7ba8636808c"
+          ],
+          [
+            "pb76bcf983d35",
+            "pf4db71e66021"
+          ],
+          [
+            "pb76bcf983d35",
+            "p707acdec07d1"
+          ],
+          [
+            "pf4db71e66021",
+            "p9d26e930fabf"
+          ],
+          [
+            "pf4db71e66021",
+            "p5e0c9a3840ef"
+          ],
+          [
+            "p9d26e930fabf",
+            "p714661a8ad21"
+          ],
+          [
+            "p9d26e930fabf",
+            "pa698c2925f12"
+          ]
+        ],
+        "roots": [
+          "p1ac474ba3fe8",
+          "p3e1cca11f5dd"
+        ],
+        "nodeCount": 19,
+        "edgeCount": 17
+      },
+      "fact": {
+        "entity": "e1d2686245371",
+        "predicate": "p3e1cca11f5dd"
+      },
+      "query": {
+        "entity": "e1d2686245371",
+        "predicate": "p330793475602",
+        "negated": false,
+        "text": "e1d2686245371 is a p330793475602."
+      },
+      "messages": [
+        {
+          "content": "You solve synthetic deductive reasoning problems.\nTreat every predicate and entity name as an arbitrary symbol. Use only the\nfacts, implication rules, or graph supplied in this request. Do not use outside\nknowledge. Follow the requested plain-text response structure exactly. Do not\nuse JSON, Markdown, code fences, or text outside the structure.",
+          "role": "system"
+        },
+        {
+          "content": "Condition: Natural Language Branching World\n\nWorld:\nEvery p3e1cca11f5dd is a pf7ba8636808c. Every pb76bcf983d35 is a pf4db71e66021. Every p3991d93c29b0 is a pfac115465e74. Every pf757642036b3 is a pec6b4af2e531. Every p1ac474ba3fe8 is a pbdc672dcbb2d. Every p1ac474ba3fe8 is a p3991d93c29b0. Every p9d26e930fabf is a pa698c2925f12. Every p3991d93c29b0 is a p49e63050bac2. Every p9d26e930fabf is a p714661a8ad21. Every pfac115465e74 is a pbf6fa5761f43. Every pfac115465e74 is a pf757642036b3. Every pf757642036b3 is a p330793475602. e1d2686245371 is a p3e1cca11f5dd. Every pf4db71e66021 is a p5e0c9a3840ef. Every p3e1cca11f5dd is a pb76bcf983d35. Every pf4db71e66021 is a p9d26e930fabf. Every pb76bcf983d35 is a p707acdec07d1.\n\nQuestion:\nTrue or false: e1d2686245371 is a p330793475602.\n\nDetermine whether the query predicate is reachable from the entity through the stated implications. If it is reachable, return exactly one contiguous entity-level proof path and omit all distractor branches. If it is unreachable, return no STEP lines. Account for query negation when selecting the Boolean answer.\n\nReturn plain text in exactly this structure:\nSTEP 1: first derived proposition\nSTEP 2: second derived proposition\nANSWER: True\nEND\n\nInclude one STEP line per derived proposition, numbered consecutively from 1.\nAfter all STEP lines, write ANSWER followed by either True or False. If no\nderivation is needed, begin with the ANSWER line. Do not include commentary,\nconfidence, alternatives, or unstated facts.",
+          "role": "user"
+        }
+      ],
+      "path": [],
+      "exploration": [
+        [
+          "e1d2686245371",
+          "p3e1cca11f5dd"
+        ],
+        [
+          "p3e1cca11f5dd",
+          "pb76bcf983d35"
+        ],
+        [
+          "p3e1cca11f5dd",
+          "pf7ba8636808c"
+        ],
+        [
+          "pb76bcf983d35",
+          "pf4db71e66021"
+        ],
+        [
+          "pb76bcf983d35",
+          "p707acdec07d1"
+        ],
+        [
+          "pf4db71e66021",
+          "p9d26e930fabf"
+        ],
+        [
+          "pf4db71e66021",
+          "p5e0c9a3840ef"
+        ],
+        [
+          "p9d26e930fabf",
+          "p714661a8ad21"
+        ],
+        [
+          "p9d26e930fabf",
+          "pa698c2925f12"
+        ]
+      ],
+      "observed": {
+        "model": "Luna",
+        "answer": "True",
+        "text": "STEP 1: e1d2686245371 is a p3e1cca11f5dd\nSTEP 2: e1d2686245371 is a pf7ba8636808c\nSTEP 3: e1d2686245371 is a p330793475602\nANSWER: True\nEND",
+        "classification": "wrong_final"
+      },
+      "request_sha256": "5a604d86ff1da968b1c2403dc3369c652819d86e11f42281348099a45493a84b"
+    }
+  ],
+  "cells": [
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 4,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1994,
+        "wrong_final": 6
+      },
+      "correct": 1994,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.997,
+      "observed_success_upper_fraction": 0.997,
+      "joint_interval": [
+        0.991157364563709,
+        0.9994208892874091
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1990,
+        "wrong_final": 10
+      },
+      "correct": 1990,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.995,
+      "observed_success_upper_fraction": 0.995,
+      "joint_interval": [
+        0.988157621823947,
+        0.998471794055986
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 1998,
+      "reachable_counts": {
+        "correct": 1998,
+        "wrong_final": 2
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 8,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1980,
+        "wrong_final": 20
+      },
+      "correct": 1980,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.99,
+      "observed_success_upper_fraction": 0.99,
+      "joint_interval": [
+        0.9812866981424365,
+        0.9954228953238993
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 1991,
+      "reachable_counts": {
+        "correct": 1991,
+        "wrong_final": 9
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 8,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1952,
+        "wrong_final": 48
+      },
+      "correct": 1952,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.976,
+      "observed_success_upper_fraction": 0.976,
+      "joint_interval": [
+        0.9637794172241451,
+        0.9850687814923194
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 1980,
+      "reachable_counts": {
+        "correct": 1980,
+        "wrong_final": 20
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 16,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1933,
+        "wrong_final": 67
+      },
+      "correct": 1933,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9665,
+      "observed_success_upper_fraction": 0.9665,
+      "joint_interval": [
+        0.9525132308429023,
+        0.9774109668176796
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 1909,
+      "reachable_counts": {
+        "correct": 1909,
+        "wrong_final": 91
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 16,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1880,
+        "wrong_final": 120
+      },
+      "correct": 1880,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.94,
+      "observed_success_upper_fraction": 0.94,
+      "joint_interval": [
+        0.9222402999657983,
+        0.9548762710056062
+      ],
+      "decision": "above_90",
+      "label": "Luna",
+      "reachable_correct": 1924,
+      "reachable_counts": {
+        "correct": 1924,
+        "wrong_final": 76
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 32,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1838,
+        "wrong_final": 162
+      },
+      "correct": 1838,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.919,
+      "observed_success_upper_fraction": 0.919,
+      "joint_interval": [
+        0.8989331250224663,
+        0.9363280598569959
+      ],
+      "decision": "unresolved",
+      "label": "Luna",
+      "reachable_correct": 1733,
+      "reachable_counts": {
+        "wrong_final": 267,
+        "correct": 1733
+      }
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 32,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1707,
+        "wrong_final": 293
+      },
+      "correct": 1707,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.8535,
+      "observed_success_upper_fraction": 0.8535,
+      "joint_interval": [
+        0.8282103622391496,
+        0.8764881966424993
+      ],
+      "decision": "below_90",
+      "label": "Luna",
+      "reachable_correct": 1876,
+      "reachable_counts": {
+        "correct": 1876,
+        "wrong_final": 124
+      }
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 2,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 2000
+      },
+      "correct": 2000,
+      "unknown": 0,
+      "observed_success_lower_fraction": 1.0,
+      "observed_success_upper_fraction": 1.0,
+      "joint_interval": [
+        0.9966632734227847,
+        1.0
+      ],
+      "decision": "above_90",
+      "label": "Gemma 31B",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1891,
+        "budget_exhausted": 58,
+        "wrong_final": 33,
+        "unknown": 18
+      },
+      "correct": 1891,
+      "unknown": 18,
+      "observed_success_lower_fraction": 0.9455,
+      "observed_success_upper_fraction": 0.9545,
+      "joint_interval": [
+        0.928426439366037,
+        0.9673680653711312
+      ],
+      "decision": "above_90",
+      "label": "Gemma 31B",
+      "reachable_correct": 1999,
+      "reachable_counts": {
+        "correct": 1999,
+        "wrong_final": 1
+      }
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 4,
+      "breadth": 8,
+      "n": 2000,
+      "counts": {
+        "correct": 1637,
+        "budget_exhausted": 151,
+        "wrong_final": 181,
+        "unknown": 31
+      },
+      "correct": 1637,
+      "unknown": 31,
+      "observed_success_lower_fraction": 0.8185,
+      "observed_success_upper_fraction": 0.834,
+      "joint_interval": [
+        0.7911804596192371,
+        0.858297500592059
+      ],
+      "decision": "below_90",
+      "label": "Gemma 31B",
+      "reachable_correct": 1998,
+      "reachable_counts": {
+        "correct": 1998,
+        "wrong_final": 2
+      }
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 8,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "budget_exhausted": 573,
+        "wrong_final": 165,
+        "correct": 1126,
+        "unknown": 134,
+        "no_final": 2
+      },
+      "correct": 1126,
+      "unknown": 134,
+      "observed_success_lower_fraction": 0.563,
+      "observed_success_upper_fraction": 0.63,
+      "joint_interval": [
+        0.5290560722593427,
+        0.6624272071813004
+      ],
+      "decision": "below_90",
+      "label": "Gemma 31B",
+      "reachable_correct": 1993,
+      "reachable_counts": {
+        "correct": 1993,
+        "wrong_final": 7
+      }
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 1,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1937,
+        "wrong_final": 63
+      },
+      "correct": 1937,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9685,
+      "observed_success_upper_fraction": 0.9685,
+      "joint_interval": [
+        0.9548595779538178,
+        0.9790491441837073
+      ],
+      "decision": "above_90",
+      "label": "Hermes 405B",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 1,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1831,
+        "wrong_final": 169
+      },
+      "correct": 1831,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9155,
+      "observed_success_upper_fraction": 0.9155,
+      "joint_interval": [
+        0.8950880420466758,
+        0.9331969166586812
+      ],
+      "decision": "unresolved",
+      "label": "Hermes 405B",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 2,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "wrong_final": 1237,
+        "correct": 763
+      },
+      "correct": 763,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.3815,
+      "observed_success_upper_fraction": 0.3815,
+      "joint_interval": [
+        0.3488365130120652,
+        0.4149320709418822
+      ],
+      "decision": "below_90",
+      "label": "Hermes 405B",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 2,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "wrong_final": 1829,
+        "correct": 171
+      },
+      "correct": 171,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.0855,
+      "observed_success_upper_fraction": 0.0855,
+      "joint_interval": [
+        0.06769948197877954,
+        0.10600877982886692
+      ],
+      "decision": "below_90",
+      "label": "Hermes 405B",
+      "reachable_correct": 2000,
+      "reachable_counts": {
+        "correct": 2000
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 4,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1843,
+        "budget_exhausted": 73,
+        "wrong_final": 84
+      },
+      "correct": 1843,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9215,
+      "observed_success_upper_fraction": 0.9215,
+      "joint_interval": [
+        0.9016857557461451,
+        0.9385584013036283
+      ],
+      "decision": "above_90",
+      "label": "DeepSeek V4.1 Flash",
+      "reachable_correct": 1978,
+      "reachable_counts": {
+        "correct": 1978,
+        "wrong_final": 22
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1699,
+        "wrong_final": 263,
+        "budget_exhausted": 38
+      },
+      "correct": 1699,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.8495,
+      "observed_success_upper_fraction": 0.8495,
+      "joint_interval": [
+        0.8239570757003558,
+        0.872767869749699
+      ],
+      "decision": "below_90",
+      "label": "DeepSeek V4.1 Flash",
+      "reachable_correct": 1974,
+      "reachable_counts": {
+        "correct": 1974,
+        "wrong_final": 26
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 16,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1630,
+        "budget_exhausted": 134,
+        "wrong_final": 236
+      },
+      "correct": 1630,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.815,
+      "observed_success_upper_fraction": 0.815,
+      "joint_interval": [
+        0.7874987703605836,
+        0.8404529583999771
+      ],
+      "decision": "below_90",
+      "label": "DeepSeek V4.1 Flash",
+      "reachable_correct": 1497,
+      "reachable_counts": {
+        "wrong_final": 500,
+        "correct": 1497,
+        "budget_exhausted": 3
+      }
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 16,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1178,
+        "wrong_final": 686,
+        "budget_exhausted": 136
+      },
+      "correct": 1178,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.589,
+      "observed_success_upper_fraction": 0.589,
+      "joint_interval": [
+        0.5552414761772644,
+        0.6221813501060005
+      ],
+      "decision": "below_90",
+      "label": "DeepSeek V4.1 Flash",
+      "reachable_correct": 1687,
+      "reachable_counts": {
+        "correct": 1687,
+        "wrong_final": 311,
+        "budget_exhausted": 2
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "gpt-5.6-luna",
+      "label": "Luna"
+    },
+    {
+      "id": "google/gemma-4-31B-it",
+      "label": "Gemma 31B"
+    },
+    {
+      "id": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "label": "Hermes 405B"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "label": "DeepSeek V4.1 Flash"
+    }
+  ],
+  "brackets": [
+    {
+      "model": "gpt-5.6-luna",
+      "above": [
+        16,
+        4
+      ],
+      "below": [
+        32,
+        4
+      ]
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "above": [
+        4,
+        4
+      ],
+      "below": [
+        4,
+        8
+      ]
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "above": [
+        1,
+        2
+      ],
+      "below": [
+        2,
+        2
+      ]
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "above": [
+        4,
+        2
+      ],
+      "below": [
+        4,
+        4
+      ]
+    }
+  ],
+  "family_size": 20,
+  "alpha": 0.05,
+  "calls": 80000,
+  "joint_source": "reports/joint_four_model_rejection90_20261001.json",
+  "joint_sha256": "59f1f8323ce4bc2bbac41fcadcd6d10cbad358ed0aa1e0e83da1171e3da5bab3"
+}

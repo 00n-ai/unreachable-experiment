@@ -1,0 +1,574 @@
+{
+  "analysis_type": "retrospective_joint_reanalysis_not_preregistered",
+  "family": "all 20 successful correct-rejection settings; no endpoint or cell filtering",
+  "family_size": 20,
+  "familywise_alpha": 0.05,
+  "tail_alpha": 0.00125,
+  "method": "two-sided exact Clopper-Pearson with Bonferroni and unknown-outcome envelopes",
+  "threshold": 0.9,
+  "total_calls_audited": 80000,
+  "primary_observations": 40000,
+  "decision_counts": {
+    "above_90": 10,
+    "unresolved": 2,
+    "below_90": 8
+  },
+  "cells": [
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 4,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1994,
+        "wrong_final": 6
+      },
+      "correct": 1994,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.997,
+      "observed_success_upper_fraction": 0.997,
+      "joint_interval": [
+        0.991157364563709,
+        0.9994208892874091
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1990,
+        "wrong_final": 10
+      },
+      "correct": 1990,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.995,
+      "observed_success_upper_fraction": 0.995,
+      "joint_interval": [
+        0.988157621823947,
+        0.998471794055986
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 8,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1980,
+        "wrong_final": 20
+      },
+      "correct": 1980,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.99,
+      "observed_success_upper_fraction": 0.99,
+      "joint_interval": [
+        0.9812866981424365,
+        0.9954228953238993
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 8,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1952,
+        "wrong_final": 48
+      },
+      "correct": 1952,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.976,
+      "observed_success_upper_fraction": 0.976,
+      "joint_interval": [
+        0.9637794172241451,
+        0.9850687814923194
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 16,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1933,
+        "wrong_final": 67
+      },
+      "correct": 1933,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9665,
+      "observed_success_upper_fraction": 0.9665,
+      "joint_interval": [
+        0.9525132308429023,
+        0.9774109668176796
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 16,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1880,
+        "wrong_final": 120
+      },
+      "correct": 1880,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.94,
+      "observed_success_upper_fraction": 0.94,
+      "joint_interval": [
+        0.9222402999657983,
+        0.9548762710056062
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 32,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1838,
+        "wrong_final": 162
+      },
+      "correct": 1838,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.919,
+      "observed_success_upper_fraction": 0.919,
+      "joint_interval": [
+        0.8989331250224663,
+        0.9363280598569959
+      ],
+      "decision": "unresolved"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "depth": 32,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1707,
+        "wrong_final": 293
+      },
+      "correct": 1707,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.8535,
+      "observed_success_upper_fraction": 0.8535,
+      "joint_interval": [
+        0.8282103622391496,
+        0.8764881966424993
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 2,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 2000
+      },
+      "correct": 2000,
+      "unknown": 0,
+      "observed_success_lower_fraction": 1.0,
+      "observed_success_upper_fraction": 1.0,
+      "joint_interval": [
+        0.9966632734227847,
+        1.0
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1891,
+        "budget_exhausted": 58,
+        "wrong_final": 33,
+        "unknown": 18
+      },
+      "correct": 1891,
+      "unknown": 18,
+      "observed_success_lower_fraction": 0.9455,
+      "observed_success_upper_fraction": 0.9545,
+      "joint_interval": [
+        0.928426439366037,
+        0.9673680653711312
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 4,
+      "breadth": 8,
+      "n": 2000,
+      "counts": {
+        "correct": 1637,
+        "budget_exhausted": 151,
+        "wrong_final": 181,
+        "unknown": 31
+      },
+      "correct": 1637,
+      "unknown": 31,
+      "observed_success_lower_fraction": 0.8185,
+      "observed_success_upper_fraction": 0.834,
+      "joint_interval": [
+        0.7911804596192371,
+        0.858297500592059
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "depth": 8,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "budget_exhausted": 573,
+        "wrong_final": 165,
+        "correct": 1126,
+        "unknown": 134,
+        "no_final": 2
+      },
+      "correct": 1126,
+      "unknown": 134,
+      "observed_success_lower_fraction": 0.563,
+      "observed_success_upper_fraction": 0.63,
+      "joint_interval": [
+        0.5290560722593427,
+        0.6624272071813004
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 1,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1937,
+        "wrong_final": 63
+      },
+      "correct": 1937,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9685,
+      "observed_success_upper_fraction": 0.9685,
+      "joint_interval": [
+        0.9548595779538178,
+        0.9790491441837073
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 1,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1831,
+        "wrong_final": 169
+      },
+      "correct": 1831,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9155,
+      "observed_success_upper_fraction": 0.9155,
+      "joint_interval": [
+        0.8950880420466758,
+        0.9331969166586812
+      ],
+      "decision": "unresolved"
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 2,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "wrong_final": 1237,
+        "correct": 763
+      },
+      "correct": 763,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.3815,
+      "observed_success_upper_fraction": 0.3815,
+      "joint_interval": [
+        0.3488365130120652,
+        0.4149320709418822
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "depth": 2,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "wrong_final": 1829,
+        "correct": 171
+      },
+      "correct": 171,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.0855,
+      "observed_success_upper_fraction": 0.0855,
+      "joint_interval": [
+        0.06769948197877954,
+        0.10600877982886692
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 4,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1843,
+        "budget_exhausted": 73,
+        "wrong_final": 84
+      },
+      "correct": 1843,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.9215,
+      "observed_success_upper_fraction": 0.9215,
+      "joint_interval": [
+        0.9016857557461451,
+        0.9385584013036283
+      ],
+      "decision": "above_90"
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 4,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1699,
+        "wrong_final": 263,
+        "budget_exhausted": 38
+      },
+      "correct": 1699,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.8495,
+      "observed_success_upper_fraction": 0.8495,
+      "joint_interval": [
+        0.8239570757003558,
+        0.872767869749699
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 16,
+      "breadth": 2,
+      "n": 2000,
+      "counts": {
+        "correct": 1630,
+        "budget_exhausted": 134,
+        "wrong_final": 236
+      },
+      "correct": 1630,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.815,
+      "observed_success_upper_fraction": 0.815,
+      "joint_interval": [
+        0.7874987703605836,
+        0.8404529583999771
+      ],
+      "decision": "below_90"
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "depth": 16,
+      "breadth": 4,
+      "n": 2000,
+      "counts": {
+        "correct": 1178,
+        "wrong_final": 686,
+        "budget_exhausted": 136
+      },
+      "correct": 1178,
+      "unknown": 0,
+      "observed_success_lower_fraction": 0.589,
+      "observed_success_upper_fraction": 0.589,
+      "joint_interval": [
+        0.5552414761772644,
+        0.6221813501060005
+      ],
+      "decision": "below_90"
+    }
+  ],
+  "supported_brackets": [
+    {
+      "model": "gpt-5.6-luna",
+      "above": [
+        16,
+        4
+      ],
+      "below": [
+        32,
+        4
+      ]
+    },
+    {
+      "model": "google/gemma-4-31B-it",
+      "above": [
+        4,
+        4
+      ],
+      "below": [
+        4,
+        8
+      ]
+    },
+    {
+      "model": "NousResearch/Hermes-3-Llama-3.1-405B",
+      "above": [
+        1,
+        2
+      ],
+      "below": [
+        2,
+        2
+      ]
+    },
+    {
+      "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "above": [
+        4,
+        2
+      ],
+      "below": [
+        4,
+        4
+      ]
+    }
+  ],
+  "cohorts": {
+    "luna": {
+      "seal_id": "e69fc79ac92d4dab6e82b2414d39017e299951b0468f48510a1dc0c3d9c4d57d",
+      "calls": 32000,
+      "input_sha256": {
+        "runs/luna_rejection90_plan_20260930/tasks.jsonl": "8eba60485c1a9a2cd21775ab52d423fa4c0aa5b7216e3cd65681c436303caa3c",
+        "runs/luna_rejection90_20260930/execution_seal.json": "34e40759e33197d559df7cb69bb71c3227349c540ee440ca88d64e6214960e06",
+        "runs/luna_rejection90_20260930/state.json": "fa3863ff3e2d695b1dd47e94f3f4318e01b5d9a908e448ccae901784e1d173a9",
+        "runs/luna_rejection90_20260930/job_000.outcomes.jsonl": "bc01a0dc352b1c8a1e74264426acc3f8bcf045179e6f7619e3d6c3c7461f635e",
+        "runs/luna_rejection90_20260930/job_001.outcomes.jsonl": "2094caf2f19ae8bb72f3f65acd898786a0a28b1d8da1da0e1f0335ff51303428",
+        "runs/luna_rejection90_20260930/job_002.outcomes.jsonl": "90308d85765e98a5ba1402b83d8ec8c7b33e3dbb938e5e8639305e4478615d61",
+        "runs/luna_rejection90_20260930/job_003.outcomes.jsonl": "05eafc0e8b2ce3a1d7a165c0f1c048a037fa04a3362ed7cab462a34606732f7d",
+        "runs/luna_rejection90_20260930/job_004.outcomes.jsonl": "adee4e76f6dfe18a9104dca2e41a1fb0286005193a64ddfec0f357dcccddaae1",
+        "runs/luna_rejection90_20260930/job_005.outcomes.jsonl": "2bd228a11012a8f881e9e16a412a67f6ff9acc2a11544c7a89f9f354009c6e31",
+        "runs/luna_rejection90_20260930/job_006.outcomes.jsonl": "dc78a7b547118b97ae89ec23689230afb9a10d8a741b97b2e0f1778e647c5cee",
+        "runs/luna_rejection90_20260930/job_007.outcomes.jsonl": "d8e685f8da8734039d50ed64c30abf22f482a2a932ca022b9cfeb56efa9de9ac",
+        "runs/luna_rejection90_20260930/job_008.outcomes.jsonl": "c2924912a1a098ebb89cbe23f1f1da48491b13f0892d1efa4e09802b58ec9881",
+        "runs/luna_rejection90_20260930/job_009.outcomes.jsonl": "399607b423af714bed0a6fda62bd34aaebf712834c9277bb5033f544dfec2617",
+        "runs/luna_rejection90_20260930/job_010.outcomes.jsonl": "5cd3d35e23a908e4cabd88f657bedc963e05539439c2c7741da67e6dad697f01",
+        "runs/luna_rejection90_20260930/job_011.outcomes.jsonl": "62decca52bd093724bc22a10cec17a091e5ea27da6447bb0e557d2ba04876c0a",
+        "runs/luna_rejection90_20260930/job_012.outcomes.jsonl": "6579d9ae6a6f8566fbc2ec60ebeaf1455b27d3a9bce8ff57a3066f44a5c53616",
+        "runs/luna_rejection90_20260930/job_013.outcomes.jsonl": "88569042f7131a59c37d82f9ffb37dc99accd882e8160ac7e926d778588d293f",
+        "runs/luna_rejection90_20260930/job_014.outcomes.jsonl": "ea39e6e9ded4799d68bc60b69490dfdddfce399db6e1184b4116333685a6a486",
+        "runs/luna_rejection90_20260930/job_015.outcomes.jsonl": "fd5ab1ad89f89bb828d1787296127f45f6729556d436b464e040a1594ed5ca85",
+        "runs/luna_rejection90_20260930/job_016.outcomes.jsonl": "2afe25ea076af52acccc0a8218d151786a5706a519640c6f31198e301a14e133",
+        "runs/luna_rejection90_20260930/job_017.outcomes.jsonl": "d5bbb4e8fdb5b101e463e8c84a8a54187f5a554624e9c029d3a219ab66f24274",
+        "runs/luna_rejection90_20260930/job_018.outcomes.jsonl": "96bc4d36588a95086978b0436f353b9e8048def9e38105940d9ad989e40464c9",
+        "runs/luna_rejection90_20260930/job_019.outcomes.jsonl": "9aa40f8728ea34e11aaf1bc73d257805987743862ea86d96ca4d28411ffeedf0",
+        "runs/luna_rejection90_20260930/job_020.outcomes.jsonl": "02bab2d63ad6408de7905dd29b2adb73a50e57462b13b176305074b3ae094a57",
+        "runs/luna_rejection90_20260930/job_021.outcomes.jsonl": "ec1f21d4d0fe7e82092973bd6b6aa9d4f9f4653bf2da190a65f260a3c7cf4634",
+        "runs/luna_rejection90_20260930/job_022.outcomes.jsonl": "7c3858f3af4a0e930dce80c49ca4759dbf457665c982254fb65d10f161c8fcc4",
+        "runs/luna_rejection90_20260930/job_023.outcomes.jsonl": "fc91bd8f852f91cff4d64a230f1f7e49a7f455c5f47dd6ba375b326ee803af3c",
+        "runs/luna_rejection90_20260930/job_024.outcomes.jsonl": "a57d917dc40148bb2be548e62f791986c468c0e0bce513b7fe25ae88bd02163b",
+        "runs/luna_rejection90_20260930/job_025.outcomes.jsonl": "a6421344a0334b4eaa337015559c3b64d81e21bbb8c7d6c2aee2e82e954755cc",
+        "runs/luna_rejection90_20260930/job_026.outcomes.jsonl": "11ea876332e0fcb40f4a7c869416418be03eb878aae548313d16c4e8d9506590",
+        "runs/luna_rejection90_20260930/job_027.outcomes.jsonl": "d40a0b754cae23b8c4f498d7d90f3123655c30ed9b2ac08fc3b5cba8606b610c",
+        "runs/luna_rejection90_20260930/job_028.outcomes.jsonl": "c3788a48bc25b68e5cc7136ef6c2e88837747f5dae2d3353d03349e517eb733f",
+        "runs/luna_rejection90_20260930/job_029.outcomes.jsonl": "adcc646b262d134fab06c42410fbbe90f13fbabf270165acdd3e34f7f8409fed",
+        "runs/luna_rejection90_20260930/job_030.outcomes.jsonl": "6538089b0412184130d7e8d993d95d75378d345b628e73694bd54002684175ce",
+        "runs/luna_rejection90_20260930/job_031.outcomes.jsonl": "8da5164a9fe0c04fa3e88ac0620b39d89db6832d9f30c0b25394fca58d79ca4c",
+        "runs/luna_rejection90_20260930/job_032.outcomes.jsonl": "429d8b536b8e246e187bee1d3ecd529403b5ad707a5ef68cc380e6a18588d092",
+        "runs/luna_rejection90_20260930/job_033.outcomes.jsonl": "157dedc77e6ecedab36e0bc7c81c2f413912c784b486b3c5b0c64deffa964558",
+        "runs/luna_rejection90_20260930/job_034.outcomes.jsonl": "d88b9cd7bdbeb9a07376230c8c973aaa9299559163ed4d9e88e47817c2c68fbd",
+        "runs/luna_rejection90_20260930/job_035.outcomes.jsonl": "385f3a4cb068740c872d6c1ecad60feff646af54dc474a46eb6e2e528a48601e",
+        "runs/luna_rejection90_20260930/job_036.outcomes.jsonl": "639b0636716106da7ad7afa49fbac036623fe4876d88079ce2ba666d024f00df",
+        "runs/luna_rejection90_20260930/job_037.outcomes.jsonl": "376e0f16409ed3ec80494586ed20958c90ad77ad3e0377047d53dcfb270ab653",
+        "runs/luna_rejection90_20260930/job_038.outcomes.jsonl": "666e769e1387273251f1f3e7eb87b12b180d6c11d0d21f3edb3e1b0b29d41754",
+        "runs/luna_rejection90_20260930/job_039.outcomes.jsonl": "92b557dad609f55a2b85218c1002fc2d251b92da22992a838eca792102fc1b4c",
+        "runs/luna_rejection90_20260930/job_040.outcomes.jsonl": "6a171738c74afadc43f2e364ca796bdc890673a6acb05f50e84433e183b31b80",
+        "runs/luna_rejection90_20260930/job_041.outcomes.jsonl": "d88d971311d059370a46a533068252f64052b079bd8626e9c3f553ffdc7a591d",
+        "runs/luna_rejection90_20260930/job_042.outcomes.jsonl": "38fbbe9b2691cf90d5091e3d72b4337ae077e26e9b9b019dd8580eebe3b86949",
+        "runs/luna_rejection90_20260930/job_043.outcomes.jsonl": "1164a720f38c4fdda5076851fdea1dfa6f82c4c950b1317e09d2def90a8f8802",
+        "runs/luna_rejection90_20260930/job_044.outcomes.jsonl": "1029b3aa7a58d72fc3a0eee695fc046d672ab8731b59132f9d1ca5f599c615f9",
+        "runs/luna_rejection90_20260930/job_045.outcomes.jsonl": "ec8fd4464201da5d886c92fd56f0ca7b80a0eeec543bafe1678dbe31fb7dab05",
+        "runs/luna_rejection90_20260930/job_046.outcomes.jsonl": "84c692e108a8b8ebe77bd74d44ebd2a6173319a57b5f522fd86af6aa406bcee9",
+        "runs/luna_rejection90_20260930/job_047.outcomes.jsonl": "fd639566c025ec95f2bf54725c0e4178f20d81eb67b4367ea6575fb41d605515"
+      }
+    },
+    "deepinfra": {
+      "seal_id": "2dec9a29c4fd48e4e0b42b463ffa60db56f36838406bf5a40f8ac960571e681b",
+      "calls": 48000,
+      "input_sha256": {
+        "runs/deepinfra_rejection90_no_glm_plan_20261001/tasks.jsonl": "f3da1e1ac3f71ee8263e6800cb0d38ebefeb8ab9bf4b3039de55f6a612d2ae83",
+        "runs/deepinfra_rejection90_20261001/execution_seal.json": "d6d2cc6794f43971ac5b58b7d5b9a533e08a1d2b4e2ff57eb326899a9947319f",
+        "runs/deepinfra_rejection90_20261001/state.json": "b42a985eb7262a9d960dcf5779f4f256453041cb37e0ab9e3958b2db68bf4f50",
+        "runs/deepinfra_rejection90_20261001/m0_job_000.outcomes.jsonl": "69e102087a129f29bc6d7686d67f35dfc6bf853b9918b1efa1c2422513caa7b5",
+        "runs/deepinfra_rejection90_20261001/m0_job_001.outcomes.jsonl": "3ea29e5b1a068dd3b6a2761e94cc0bd72a1bb366b2e17e85790649f72e3222e7",
+        "runs/deepinfra_rejection90_20261001/m0_job_002.outcomes.jsonl": "147405771d0b28b22ec72971c49adf2c97412c7442e62b3decbbf268221a7a6f",
+        "runs/deepinfra_rejection90_20261001/m0_job_003.outcomes.jsonl": "74c80c95a42b7a92161eb93844170d355b23fdde9bd13346fde0a4aea0fca619",
+        "runs/deepinfra_rejection90_20261001/m0_job_004.outcomes.jsonl": "9afa0c9d4831f58725b686068c826b2cdd93f637c3b1fe1106d206ed5c9b210d",
+        "runs/deepinfra_rejection90_20261001/m0_job_005.outcomes.jsonl": "12ddc66875ff16873567796b6b9dc2d5a24611f4ba64c56f55a7ad672aa65588",
+        "runs/deepinfra_rejection90_20261001/m0_job_006.outcomes.jsonl": "403d050c7432ce3934ebd0b0a61b24066edaa4a0313fd7992f7857b8d3f33457",
+        "runs/deepinfra_rejection90_20261001/m0_job_007.outcomes.jsonl": "bc05eaa266855a452f8842f384cd2ab5577ff42c84b38eeec28959bca4265507",
+        "runs/deepinfra_rejection90_20261001/m0_job_008.outcomes.jsonl": "7aadee23c3a7cfe6c31c366f89b4b1ea640312e3c6ae26f0bb12b784a41da6a8",
+        "runs/deepinfra_rejection90_20261001/m0_job_009.outcomes.jsonl": "8230550f8d008656c6e61f35be32af1c2136dae383c831196c064521b5ad7500",
+        "runs/deepinfra_rejection90_20261001/m0_job_010.outcomes.jsonl": "2e25306f67c70129b3a899892d0465b14f8dbfe27ef20de3aee14cc4c83b7942",
+        "runs/deepinfra_rejection90_20261001/m0_job_011.outcomes.jsonl": "ddb9df16882a0914f60d2b18bac810a1bee9408273f0053a82c7afd50e6728c2",
+        "runs/deepinfra_rejection90_20261001/m0_job_012.outcomes.jsonl": "443035b969c834fcf52d558cdb9567e6df7e8c631a7915a798adb6fcf3c42f5d",
+        "runs/deepinfra_rejection90_20261001/m0_job_013.outcomes.jsonl": "eb76e8adafb8864baeaaacfd4be687b760f2b9199f586fa54bcc05b0006c671f",
+        "runs/deepinfra_rejection90_20261001/m0_job_014.outcomes.jsonl": "7e4594d97320a52b70343c9d1f185fb687597ec00a06e7f1fcb11ee29728110c",
+        "runs/deepinfra_rejection90_20261001/m0_job_015.outcomes.jsonl": "0be0698363f28a374754b081d6c9ab5acbf8f18899840d138c83ccf36a41d24e",
+        "runs/deepinfra_rejection90_20261001/m1_job_000.outcomes.jsonl": "04c57435561b221b4ca484e4d707bd17af6c1b05e95184510bcee332e21f3946",
+        "runs/deepinfra_rejection90_20261001/m1_job_001.outcomes.jsonl": "8de77e05f41cf69b132870c5abf40acd72c4ef2615cb67e73c71301e68e45817",
+        "runs/deepinfra_rejection90_20261001/m1_job_002.outcomes.jsonl": "05d670c75f17f20cd7fb8c9eb36c0707701ab598cd48880b506a0f6bf762521d",
+        "runs/deepinfra_rejection90_20261001/m1_job_003.outcomes.jsonl": "9b1a1de96b20cc2bc4ae17761d690cd4dc3aaf1923058c0f78e369e80a1e4a4e",
+        "runs/deepinfra_rejection90_20261001/m1_job_004.outcomes.jsonl": "3a007fa820359b93ef7b7463491f86fd1a067ba8d9e1787b0d0ead7c91ce3d86",
+        "runs/deepinfra_rejection90_20261001/m1_job_005.outcomes.jsonl": "581bb3fb97e49531f9a1f96cbfcae0c0bea21bdadf9ac5ff47935e9c355fc39e",
+        "runs/deepinfra_rejection90_20261001/m1_job_006.outcomes.jsonl": "38fecc2955bab25bc7e92d06da12937be9fa628a50b852beb73971352210b4ff",
+        "runs/deepinfra_rejection90_20261001/m1_job_007.outcomes.jsonl": "f3c367c7a059bc6fee6836180a2d48703585d3d1edb8f66bbb5e3ac7777db7d8",
+        "runs/deepinfra_rejection90_20261001/m1_job_008.outcomes.jsonl": "759c703642f774bc5150a1fd7031a368cb805e83a336c6839a6d148bf3fff561",
+        "runs/deepinfra_rejection90_20261001/m1_job_009.outcomes.jsonl": "14945d91d56773b8432e25601cd37425a01233979696266152e10fb2b8c1a44f",
+        "runs/deepinfra_rejection90_20261001/m1_job_010.outcomes.jsonl": "0536937da3922c74d2fe08ce069d5e37b7b42e3b62bf46f64492adb79c517e17",
+        "runs/deepinfra_rejection90_20261001/m1_job_011.outcomes.jsonl": "fece38d01addc51e922311f9a325723ac43d5a16cd843d64c711deeb10124732",
+        "runs/deepinfra_rejection90_20261001/m1_job_012.outcomes.jsonl": "01dc03c21707a0bf340fd63bf5e0a42e0d204e96bc10f2db3ef34ed57e62b309",
+        "runs/deepinfra_rejection90_20261001/m1_job_013.outcomes.jsonl": "3513adc8742b845a2ec1b0545e12fc0950f9d0accc50cf824f58f239b114ba3d",
+        "runs/deepinfra_rejection90_20261001/m1_job_014.outcomes.jsonl": "015abedcec85c93ffe9b45b97d33054c69dcfb11da341736bfb8de0cab99410a",
+        "runs/deepinfra_rejection90_20261001/m1_job_015.outcomes.jsonl": "68461eae6c4575643b6b3745a35b049956b57505d8409e2d9e2369539fb114ef",
+        "runs/deepinfra_rejection90_20261001/m2_job_000.outcomes.jsonl": "d18197700aba275baff3d597b58d89d69f349f3a67b29cb29dc8067ff0c43c9f",
+        "runs/deepinfra_rejection90_20261001/m2_job_001.outcomes.jsonl": "66b39a98ffc1dd11ccf69f3a93642827c57fff289990595b59776171639fbd51",
+        "runs/deepinfra_rejection90_20261001/m2_job_002.outcomes.jsonl": "2148164b5eb85e78f62b0174ee094e9e72c94f1d73cd2256e055e5d12442883f",
+        "runs/deepinfra_rejection90_20261001/m2_job_003.outcomes.jsonl": "d872c90a36626da4ad7cbcdc88f75ec0e979ad4361dbb58ad2a64a718d2eb8f9",
+        "runs/deepinfra_rejection90_20261001/m2_job_004.outcomes.jsonl": "cbc6397422a91713339097e03c589fafd1042c1016d72e204f1f939a2445f3e3",
+        "runs/deepinfra_rejection90_20261001/m2_job_005.outcomes.jsonl": "1c9e0ddf36c48336b835efbf6a8feed011cb5de8a00ea297978bb77c1e6f05d2",
+        "runs/deepinfra_rejection90_20261001/m2_job_006.outcomes.jsonl": "83f2bffec920bdc714a4fb0ea884094b31f56fedec66d5af7d1967e236226c68",
+        "runs/deepinfra_rejection90_20261001/m2_job_007.outcomes.jsonl": "aed9eb65bf2da8973f6386475644e41731c60ef20a8ea0de52bf58e0474ef5cc",
+        "runs/deepinfra_rejection90_20261001/m2_job_008.outcomes.jsonl": "fee8edb6516170dae0e4524729779131cf991dcb86f32b9f5d5e717aceec1a36",
+        "runs/deepinfra_rejection90_20261001/m2_job_009.outcomes.jsonl": "104f02a49f14c1b52080eda2d3f83cfdce577454657de27261c0e1263de8d70b",
+        "runs/deepinfra_rejection90_20261001/m2_job_010.outcomes.jsonl": "a2b678f932da6097e99fbd7faccd254998fcda4ebe561dd15a07aea71a7a7b8b",
+        "runs/deepinfra_rejection90_20261001/m2_job_011.outcomes.jsonl": "f9b093660ce0456de4da2e738ff03f246a4bd722f83ff4e61cee863feb9ea0e7",
+        "runs/deepinfra_rejection90_20261001/m2_job_012.outcomes.jsonl": "02ce5c2558611218dae2f7d1f5cf0f5f8d98890b5a0e37458aefa293c7b1a146",
+        "runs/deepinfra_rejection90_20261001/m2_job_013.outcomes.jsonl": "3159967a1a2e8b3976aa5c6c5b5ea54ffda911f2dd5c64f274e086c6de8be7f8",
+        "runs/deepinfra_rejection90_20261001/m2_job_014.outcomes.jsonl": "4ba398561832c9575db280a640a112d0426da576b7de53a7eeb848ac9f3b8708",
+        "runs/deepinfra_rejection90_20261001/m2_job_015.outcomes.jsonl": "93367f8580bc89a3a2a292d864a9a99316700c2bb2ea4a3224ab5347f4563177"
+      }
+    }
+  },
+  "analysis_source_sha256": {
+    "scripts/analyze_joint_rejection90.py": "61d68983972f522b52efd7f255f729dc4d44be8a7df3ea0b30a66d39b5db9626",
+    "tests/test_joint_rejection90.py": "2751a3d3a6a5ceb3254121343c4698d2c54783e595a6a817098e505ea8a3fe42"
+  }
+}

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this research artifact if you use its data or explainer."
+title: "Directed Graph Reasoning: A Reliability Study"
+authors:
+  - family-names: "Mahmood"
+    given-names: "Sheraz"
+version: "2026-10-01"
+date-released: "2026-10-01"
+type: dataset
+abstract: "Condition A synthetic directed-graph reasoning confirmation results and interactive explainer: 80,000 observations across four models, with a retrospective joint analysis of 20 correct-rejection settings."
